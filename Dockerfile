@@ -26,6 +26,4 @@ WORKDIR /build
 
 RUN install_packages git zip wget curl
 
-RUN rm -rf temp
-
 CMD ["/bin/bash"]
